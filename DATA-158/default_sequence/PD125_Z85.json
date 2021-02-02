@@ -1,0 +1,1371 @@
+{
+    "Version": 7,
+    "Type": "Sequence",
+    "Name": "PD125 Z85cm",
+    "DataSeparation": "None",
+    "RecordingMode": "Continuous",
+    "IntegrationType": "Peripheral",
+    "StartDelayTimeS": 0,
+    "Patterns": [
+        {
+            "Name": "PD125-5946_Headpose_is_able_to_detect_face_when_yaw_is_oriented_65_degrees_leftwards_with_sidelight",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Static Sequence 1. Room light is 500 lux with additional sidelight. (50% sidelight from left and 50% sidelight from right)<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. User orients the head yaw to 65 degrees leftwards .<br/>5. Start recording.<br/>6. Wait 5s<br/>7. Stop the recording ",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 5000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5947_Headpose_is_able_to_detect_face_when_yaw_is_oriented_65_degrees_rightwards_with_sidelight",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Static Sequence 1. Room light is 500 lux with additional sidelight. (50% sidelight from left and 50% sidelight from right)<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. User orients the head yaw to 65 degrees rightwards.<br/>5. Start recording.<br/>6. Wait 5s<br/>7. Stop the recording ",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 5000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5948_Headpose_is_able_to_detect_face_when_pitch_is_oriented_55_degrees_upwards_with_sidelight",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Static Sequence 1. Room light is 500 lux with additional sidelight. (50% sidelight from left and 50% sidelight from right)<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. User orients the head pitch to 55 degrees upwards.<br/>5. Start recording.<br/>6. Wait 5s<br/>7. Stop the recording ",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 5000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5949_Headpose_is_able_to_detect_face_when_pitch_is_oriented_35_degrees_downwards_with_sidelight",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Static Sequence 1. Room light is 500 lux with additional sidelight. (50% sidelight from left and 50% sidelight from right)<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. User orients the head pitch to 55 degrees downwards.<br/>5. Start recording.<br/>6. Wait 5s<br/>7. Stop the recording ",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 5000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5950_Headpose_is_able_to_detect_face_when_yaw_is_oriented_65_degrees_leftwards_with_different_light_conditions",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Static Sequence 1. Room light is stable 33% with 200LUX, 33% with 500LUX, 33% with 800LUX<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. User orients the head yaw to 65 degrees leftwards .<br/>5. Start recording.<br/>6. Wait 5s<br/>7. Stop the recording ",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 5000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5951_Headpose_is_able_to_detect_face_when_yaw_is_oriented_65_degrees_rightwards_with_different_light_conditions",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Static Sequence 1. Room light is stable 33% with 200LUX, 33% with 500LUX, 33% with 800LUX<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. User orients the head yaw to 65 degrees rightwards.<br/>5. Start recording.<br/>6. Wait 5s<br/>7. Stop the recording ",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 5000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5952_Headpose_is_able_to_detect_face_when_pitch_is_oriented_55_degrees_upwards_with_different_light_conditions",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Static Sequence 1. Room light is stable 33% with 200LUX, 33% with 500LUX, 33% with 800LUX<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. User orients the head pitch to 55 degrees upwards.<br/>5. Start recording.<br/>6. Wait 5s<br/>7. Stop the recording ",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 5000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5953_Headpose_is_able_to_detect_face_when_pitch_is_oriented_35_degrees_downwards_different_light_conditions",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Static Sequence 1. Room light is stable 33% with 200LUX, 33% with 500LUX, 33% with 800LUX<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. User orients the head pitch to 35 degrees downwards.<br/>5. Start recording.<br/>6. Wait 5s<br/>7. Stop the recording ",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 5000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5954_Headpose_is_able_to_detect_face_when_hands_partially_covering_the_face_with_500_lux",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Dynamic Sequence <br/>1. Room light is 500LUX<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones.<br/>4. Start recording.<br/>5. wait 1s<br/>6. User partially covers part of the nose/lips with their hand<br/>7. Wait 4s<br/>8. Stop the recording ",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 5000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5933_Headpose_is_able_to_track_fast_large_head_yaw_movements_left_and_right_with_facial_mask_with_500_lux",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Dynamic Sequence 1. Room light is 500 lux<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing a surgical mask.<br/>4. Start recording.<br/>5. Wait 1s<br/>6. Ask the user to do a pure fast large, 30 degrees, head yaw movement to the left, right and center.<br/>7. Wait 6s<br/>8. Stop the recording ",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 7000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5932_Headpose_is_able_to_track_fast_large_head_yaw_movements_left_and_right_with_500_lux",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Dynamic Sequence 1. Room light is 500 lux<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. Start recording.<br/>5. Wait 1s<br/>6. Ask the user to do a pure fast large, 30 degrees, head yaw movement to the left, right and center.<br/>7. Wait 6s<br/>8. Stop the recording ",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 7000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5915_Headpose_is_able_to_track_small_head_yaw_movements_to_the_left_with_500_lux",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Dynamic Sequence 1. Room light is 500 lux<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. Start recording.<br/>5. Wait 1s<br/>6. Ask the user to do a pure small, 10 degrees, head yaw movemt to the left and stop.<br/>7. Wait 4s<br/>8. Stop the recording.",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 5000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5917_Headpose_is_able_to_track_small_head_yaw_movements_to_the_right_with_500_lux",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Dynamic Sequence 1. Room light is 500 lux<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. Start recording.<br/>5. Wait 1s<br/>6. Ask the user to do a pure small, 10 degrees, head yaw movemt to the right and stop.<br/>7. Wait 4s<br/>8. Stop the recording ",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 5000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5920_Headpose_is_able_to_track_fast_medium_head_yaw_movements_to_the_left_with_500_lux",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Dynamic Sequence 1. Room light is 500 lux<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. Start recording.<br/>5. Wait 1s<br/>6. Ask the user to do a pure fast medium, 20 degrees, head yaw movemt to the left and stop.<br/>7. Wait 4s<br/>8. Stop the recording ",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 5000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5921_Headpose_is_able_to_track_fast_medium_head_yaw_movements_to_the_right_with_500_lux",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Dynamic Sequence 1. Room light is 500 lux<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. Start recording.<br/>5. Wait 1s<br/>6. Ask the user to do a pure fast medium, 20 degrees, head yaw movemt to the right and stop.<br/>7. Wait 4s<br/>8. Stop the recording ",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 5000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5922_Headpose_is_able_to_track_slow_large_head_yaw_movements_to_the_left_with_500_lux",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Dynamic Sequence 1. Room light is 500 lux<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. Start recording.<br/>5. Wait 1s<br/>6. Ask the user to do a pure slow large, 35 degrees, head yaw movement to the left and stop.<br/>7. Wait 4s<br/>8. Stop the recording ",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 5000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5923_Headpose_is_able_to_track_slow_large_head_yaw_movements_to_the_right_with_500_lux",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Dynamic Sequence 1. Room light is 500 lux<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. Start recording.<br/>5. Wait 1s<br/>6. Ask the user to do a pure slow large, 35 degrees, head yaw movement to the right and stop.<br/>7. Wait 4s<br/>8. Stop the recording ",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 5000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5924_Headpose_is_able_to_track_fast_large_head_yaw_movements_to_the_left_with_500_lux",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Dynamic Sequence 1. Room light is 500 lux<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. Start recording.<br/>5. Wait 1s<br/>6. Ask the user to do a pure fast large, 35 degrees, head yaw movement to the left and stop.<br/>7. Wait 4s<br/>8. Stop the recording ",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 5000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5925_Headpose_is_able_to_track_fast_large_head_yaw_movements_to_the_right_with_500_lux",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Dynamic Sequence 1. Room light is 500 lux<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. Start recording.<br/>5. Wait 1s<br/>6. Ask the user to do a pure fast large, 35 degrees, head yaw movement to the right and stop.<br/>7. Wait 4s<br/>8. Stop the recording ",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 5000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5926_Headpose_is_able_to_track_small_head_pitch_movements_upwards_with_500_lux",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Dynamic Sequence 1. Room light is 500 lux<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. Start recording.<br/>5. Wait 1s<br/>6. Ask the user to do a pure small, 10 degrees, head pitch movement upwards and stop.<br/>7. Wait 4s<br/>8. Stop the recording ",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 5000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5927_Headpose_is_able_to_track_small_head_pitch_movements_down_with_500_lux",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Dynamic Sequence 1. Room light is 500 lux<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. Start recording.<br/>5. Wait 1s<br/>6. Ask the user to do a pure small, 10 degrees, head pitch movement down and stop.<br/>7. Wait 4s<br/>8. Stop the recording ",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 5000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5928_Headpose_is_able_to_track_medium_head_pitch_movements_upwards_with_500_lux",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Dynamic Sequence 1. Room light is 500 lux<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. Start recording.<br/>5. Wait 1s<br/>6. Ask the user to do a pure medium, 20 degrees, head pitch movement upwards and stop.<br/>7. Wait 4s<br/>8. Stop the recording ",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 5000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5929_Headpose_is_able_to_track_medium_head_pitch_movements_down_with_500_lux",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Dynamic Sequence 1. Room light is 500 lux<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. Start recording.<br/>5. Wait 1s<br/>6. Ask the user to do a pure medium, 20 degrees, head pitch movement down and stop.<br/>7. Wait 4s<br/>8. Stop the recording ",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 5000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5930_Headpose_is_able_to_track_small_head_roll_movements_to_the_left_with_500_lux",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Dynamic Sequence 1. Room light is 500 lux<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. Start recording.<br/>5. Wait 1s<br/>6. Ask the user to do a pure small, 20 degrees, head roll movement to the left and stop.<br/>7. Wait 4s<br/>8. Stop the recording. ",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 5000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5931_Headpose_is_able_to_track_small_head_roll_movements_to_the_right_with_500_lux",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Dynamic Sequence 1. Room light is 500 lux<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. Start recording.<br/>5. Wait 1s<br/>6. Ask the user to do a pure small, 20 degrees, head roll movement to the right and stop.<br/>7. Wait 4s<br/>8. Stop the recording ",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 5000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5919_Headpose_is_able_to_track_X-axis_translation_movement_to_the_left_with_500_lux",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Dynamic Sequence 1. Room light is 500 lux<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. Start recording.<br/>5. Wait 1s<br/>6. Ask the user to move purely horizontally to the left while looking at the center of the screen for 25cm.<br/>7. Wait 4s<br/>8. Stop the recording ",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 200,
+                    "y": 0,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 5000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5934_Headpose_is_able_to_track_X-axis_translation_movement_to_the_right_with_500_lux",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Dynamic Sequence 1. Room light is 500 lux<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. Start recording.<br/>5. Wait 1s<br/>6. Ask the user to move purely horizontally to the right while looking at the center of the screen for 25cm.<br/>7. Wait 4s<br/>8. Stop the recording ",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 200,
+                    "y": 0,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 5000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5935_Headpose_is_able_to_track_forward_Z-axis_translation_movement_forward_with_500_lux",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Dynamic Sequence 1. Room light is 500 lux<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. Start recording.<br/>5. Wait 1s<br/>6. Ask the user to move purely forward along Z direction while looking at the center of the screen for 20cm.<br/>7. Wait 4s<br/>8. Stop the recording ",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 650
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 5000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5936_Headpose_is_able_to_track_forward_Z-axis_translation_movement_backwards_with_500_lux",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Dynamic Sequence 1. Room light is 500 lux<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. Start recording.<br/>5. Wait 1s<br/>6. Ask the user to move purely backward along Z direction while looking at the center of the screen for 20cm.<br/>7. Wait 4s<br/>8. Stop the recording ",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 1050
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 5000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5937_Headpose_is_able_to_track_forward_Y-axis_translation_movement_upwards_with_500_lux",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Dynamic Sequence 1. Room light is 500 lux<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. Start recording.<br/>5. Wait 1s<br/>6. Ask the user to move purely upward motion along Y direction by sitting more upright while looking at the center of the screen for 15cm.<br/>7. Wait 4s<br/>8. Stop the recording ",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 150,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 5000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5938_Headpose_is_able_to_detect_face_when_yaw_is_oriented_30_degrees_to_the_left_with_500_lux",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Static Sequence 1. Room light is 500 lux<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. User orients the head yaw 30 degrees leftwards.<br/>5. Start recording.<br/>6. Wait 5s<br/>7. Stop the recording ",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 5000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5939_Headpose_is_able_to_detect_face_when_yaw_is_oriented_30_degrees_to_the_right_with_500_lux",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Static Sequence 1. Room light is 500 lux<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. User orients the head yaw 30 degrees rightwards.<br/>5. Start recording.<br/>6. Wait 5s<br/>7. Stop the recording ",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 5000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5940_Headpose_is_able_to_detect_face_when_pitch_is_oriented_20_degrees_upwards_with_500_lux",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Static Sequence 1. Room light is 500 lux<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. User orients the head pitch 20 degrees upwards.<br/>5. Start recording.<br/>6. Wait 5s<br/>7. Stop the recording ",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 5000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5941_Headpose_is_able_to_detect_face_when_pitch_is_oriented_20_degrees_downwards_with_500_lux",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Static Sequence 1. Room light is 500 lux<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. User orients the head pitch to 20 degrees downwards.<br/>5. Start recording.<br/>6. Wait 5s<br/>7. Stop the recording ",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 5000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5942_Headpose_able_to_detect_face_head_oriented_25_deg_leftwards_pitch_oriented_15_degrees_upwards_500_lux",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Static Sequence 1. Room light is 500 lux<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. User orients the head pitch to 15 degrees upwards and 25 deg leftwards.<br/>5. Start recording.<br/>6. Wait 5s<br/>7. Stop the recording ",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 5000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5943_Headpose_able_to_detect_face_head_oriented_25_deg_rightwards_pitch_oriented_15_degrees_upwards_500_lux",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Static Sequence 1. Room light is 500 lux<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. User orients the head pitch to 15 degrees upwards and 25 deg rightwards.<br/>5. Start recording.<br/>6. Wait 5s<br/>7. Stop the recording ",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 5000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5944_Headpose_able_to_detect_face_head_oriented_25_deg_leftwards_pitch_oriented_15_degrees_downwards_500_lux",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Static Sequence 1. Room light is 500 lux<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. User orients the head pitch to 15 degrees downwards and 25 deg leftwards.<br/>5. Start recording.<br/>6. Wait 5s<br/>7. Stop the recording ",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 5000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5945_Headpose_able_to_detect_face_head_oriented_25_deg_rightwards_pitch_oriented_15_degrees_downwards_500_lux",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Static Sequence 1. Room light is 500 lux<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. User orients the head pitch to 15 degrees downwards and 25 deg rightwards.<br/>5. Start recording.<br/>6. Wait 5s<br/>7. Stop the recording ",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 5000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5971_Headpose_is_able_to_track_when_blinking_with_500_lux",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Dynamic Sequence 1. Room light is 500LUX<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones.<br/>4. Instruct participants to keep head as still as possible.<br/>5. Start recording.<br/>6. User blinks continuously.<br/>7. Wait 3s<br/>8. Stop the recording",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 3000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+        {
+            "Name": "PD125-5972_Headpose_is_able_to_track_when_eyes_moving_with_500_lux",
+            "Version": 7,
+            "Type": "Pattern",
+            "BackgroundIntensity": 1.0,
+            "UseForOfflineCalibration": false,
+            "PerformCalibration": false,
+            "ClearCalibration": false,
+            "OptionalCalibration": false,
+            "NotificationMessage": "Dynamic Sequence 1. Room light is 500LUX<br/>2. User is placed at Z85cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones.<br/>4. Instruct participants to keep head as still as possible.<br/>5. Start recording.<br/>6. User moves eyes continuously in all directions (left right up down)<br/>7. Wait 3s<br/>8. Stop the recording",
+            "PhysicalSetup": {
+                "LightLevel": {
+                    "ValueLux": 500,
+                    "DilationWaitTimeS": 0
+                },
+                "SubjectLocation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 850
+                }
+            },
+            "PointConfiguration": {
+                "IngressDurationMillis": 0,
+                "EgressDurationMillis": 0,
+                "DwellDurationMillis": 3000,
+                "MoveDurationMillis": 0
+            },
+            "Points": [
+                {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            ]
+        },
+    ]
+}

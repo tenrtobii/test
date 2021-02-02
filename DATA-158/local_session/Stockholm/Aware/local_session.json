@@ -1,0 +1,177 @@
+{
+    "Services": {
+        "RenderService": {
+            "IP": "127.0.0.1",
+            "Port": "5001",
+            "OverrideLoveIPD": false
+        },
+        "TrackerService": {
+            "IP": "127.0.0.1",
+            "Port": "5002",
+            "RetrieveCalibrationSupported": false,
+            "RetrieveHardwareConfigurationSupported": true,
+            "SkipCalibrationParse": false,
+            "GetOutputFrequency": false,
+            "ResolveCompoundDevices": true,
+            "TrackerUrl": ""
+        },
+        "AuxiliaryServices": [
+        ]
+    },
+    "ScreenSettings": {
+        "CalculateScreenCoordinates": true,
+        "SetScreenCoordinates": false,
+        "GetScreenCoordinates": true,
+        "Screens": [
+            {
+                "Id": 0,
+                "Resolution": {
+                    "Width": 2560,
+                    "Height": 1440
+                },
+                "Dimensions": {
+                    "WidthMM": 597,
+                    "HeightMM": 336
+                },
+                "OffsetXMM": 0
+            }
+        ]
+    },
+    "PositionGuide": {
+        "MinAwesomeThreshold": 0.4,
+        "MaxAwesomeThreshold": 0.6,
+        "MinOkThreshold": 0.3,
+        "MaxOkThreshold": 0.7
+    },
+    "ValidationSettings": {
+        "CheckImagesAndMetadataCount": true,
+        "CheckMatchingFiles": true,
+        "CheckFrameDrops": true,
+        "CheckRawdataFile": false,
+        "CheckRecordingJsonFile": true,
+        "CheckBinaryBlobs": false
+    },
+    "StreamSettings": {
+        "SubscribeImageCollection": true,
+        "SubscribeWearable": false,
+        "SubscribeWearableConsumer": false,
+        "SubscribeWearableFoveated": false,
+        "SubscribeAdvancedGaze": false,
+        "SubscribeGazePoint": false,
+        "SubscribeWearableEntrancePupilPosition": false,
+        "SubscribePresence": true,
+        "SubscribeProximityData": false,
+        "SubscribeUserPositionGuide": false,
+        "SubscribeVisualizationImage": false,
+        "SyncFrameNumbersOnTimestamp": false,
+        "SyncResultTimestampsFuzzily": false
+    },
+    "ImageCollectionSettings": {
+        "ImageFormat": "PGM",
+        "SaveImagesToArchive": false
+    },
+    "Overview": {
+        "MirrorHMDPreviewImages": true
+    },
+    "Metadata": {
+         "JiraIssue": {
+            "DefaultValue": "ATWO-2535",
+            "Options": ["ATWO-2535"],
+            "InvalidValues": []
+        },
+         "DataCollector": {
+            "DefaultValue": "Unknown",
+            "Options": ["Unknown", "cua@tobii.com", "gas@tobii.com", "tenr@tobii.com", "msia@tobii.com", "ndm@tobii.com", "of3332@tobii.com", "af3574@tobii.com"],
+            "InvalidValues": ["Unknown"]
+        },
+        "Location": {
+            "DefaultValue": "TobiiOffice_Air_Stockholm_Karlsrovagen2d",
+            "Options": ["TobiiOffice_Air_Stockholm_Karlsrovagen2d"],
+            "InvalidValues": []
+        },
+        "Station": {
+            "DefaultValue": "1",
+            "Options": ["1"],
+            "InvalidValues": []
+        },
+        "BackgroundRecording": false,
+        "Age": {
+            "Enabled": true,
+            "DefaultValue": 1,
+            "Min": 18,
+            "Max": 65
+        },
+        "DataSeparationGroup": {
+            "Enabled": true,
+            "DefaultValue": "test"
+        },
+        "DominantEye": {
+            "Enabled": false,
+            "DefaultValue": "unknown"
+        },
+        "Gender": {
+            "Enabled": true,
+            "DefaultValue": "unknown",
+            "InvalidValues": ["unknown"]
+        },
+        "Ethnicity": {
+            "Enabled": false,
+            "DefaultValue": "unknown"
+        },
+        "EyeColor": {
+            "Enabled": false,
+            "DefaultValue": "unknown"
+        },
+        "Eyeliner": {
+            "Enabled": false,
+            "DefaultValue": "unknown"
+        },
+        "EyeRelief": {
+            "Enabled": false,
+            "DefaultValue": 0,
+            "Min": 1,
+            "Max": 100
+        },
+        "Mascara": {
+            "Enabled": false,
+            "DefaultValue": "unknown"
+        },
+        "Eyeshadow": {
+            "Enabled": false,
+            "DefaultValue": "unknown"
+        },
+        "EyeShape": {
+            "Enabled": true,
+            "DefaultValue": "unknown",
+            "InvalidValues": ["unknown"]
+        },
+        "SightCorrection": {
+            "Enabled": true,
+            "DefaultValue": "unknown",
+            "InvalidValues": ["unknown", "safety_glasses", "sun_glasses"]
+        },
+        "HasDiopters": {
+            "Enabled": false,
+            "InvalidValues": []
+        },
+        "Diopters": {
+            "Enabled": false
+        },
+        "ContactLensesType": {
+            "Enabled": false,
+            "DefaultValue": "unknown"
+        },
+        "SkinTone": {
+            "Enabled": true,
+            "DefaultValue": "unknown",
+            "InvalidValues": ["unknown"]
+        }
+    },
+    "Reporting": {
+        "CollectionLogs": {
+        },
+        "CollectionLogSharepointDirectory": "https://tobii.sharepoint.com/:x:/r/teams/departments/tech/Platform/Line/Data%20Team/Data%20team%20logs/Collection%20logs/",
+        "UploadRecordings": false
+    },
+    "Version": 4
+}
