@@ -118,7 +118,7 @@
             "PerformCalibration": false,
             "ClearCalibration": false,
             "OptionalCalibration": false,
-            "NotificationMessage": "Static Sequence 1. Room light is 500 lux with additional sidelight. (50% sidelight from left and 50% sidelight from right)<br/>2. User is placed at Z55cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. User orients the head pitch to 55 degrees downwards.<br/>5. Start recording.<br/>6. Wait 5s<br/>7. Stop the recording ",
+            "NotificationMessage": "Static Sequence 1. Room light is 500 lux with additional sidelight. (50% sidelight from left and 50% sidelight from right)<br/>2. User is placed at Z55cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. User orients the head pitch to 35 degrees downwards.<br/>5. Start recording.<br/>6. Wait 5s<br/>7. Stop the recording ",
             "PhysicalSetup": {
                 "LightLevel": {
                     "ValueLux": 500,
@@ -866,7 +866,7 @@
             "PerformCalibration": false,
             "ClearCalibration": false,
             "OptionalCalibration": false,
-            "NotificationMessage": "Dynamic Sequence 1. Room light is 500 lux<br/>2. User is placed at Z55cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. Start recording.<br/>5. Wait 1s<br/>6. Ask the user to move purely horizontally to the left while looking at the center of the screen for 25cm.<br/>7. Wait 4s<br/>8. Stop the recording ",
+            "NotificationMessage": "Dynamic Sequence 1. Room light is 500 lux<br/>2. User is placed at Z55cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. Start recording.<br/>5. Wait 1s<br/>6. Ask the user to move purely horizontally to the left while looking at the center of the screen for 20cm.<br/>7. Wait 4s<br/>8. Stop the recording ",
             "PhysicalSetup": {
                 "LightLevel": {
                     "ValueLux": 500,
@@ -900,7 +900,7 @@
             "PerformCalibration": false,
             "ClearCalibration": false,
             "OptionalCalibration": false,
-            "NotificationMessage": "Dynamic Sequence 1. Room light is 500 lux<br/>2. User is placed at Z55cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. Start recording.<br/>5. Wait 1s<br/>6. Ask the user to move purely horizontally to the right while looking at the center of the screen for 25cm.<br/>7. Wait 4s<br/>8. Stop the recording ",
+            "NotificationMessage": "Dynamic Sequence 1. Room light is 500 lux<br/>2. User is placed at Z55cm with X 0cm with face in the center of the trackbox looking at the center of the screen.<br/>3. User is wearing 50 % no headphones and 50 % with headphones (2 different headphones)<br/>4. Start recording.<br/>5. Wait 1s<br/>6. Ask the user to move purely horizontally to the right while looking at the center of the screen for 20cm.<br/>7. Wait 4s<br/>8. Stop the recording ",
             "PhysicalSetup": {
                 "LightLevel": {
                     "ValueLux": 500,
